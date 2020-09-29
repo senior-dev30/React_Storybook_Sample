@@ -1,0 +1,32 @@
+@import '../variables.scss';
+
+.hidden {
+  display: none;
+}
+
+.label {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: $gray-700;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.label.disabled {
+  color: $gray-300;
+}
+
+.styledCheckbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkBoxIcon {
+  display: flex;
+  align-items: center;
+}

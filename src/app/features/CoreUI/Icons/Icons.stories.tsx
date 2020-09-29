@@ -1,0 +1,43 @@
+import React from 'react';
+
+import CampaignIcon from './CampaignIcon';
+import DashboardIcon from './DashboardIcon';
+import SegementsIcon from './SegementsIcon ';
+import AuotmationBotIcon from './AuotmationBotIcon';
+import ConversationsIcon from './ConversationsIcon';
+import ProfilesIcon from './ProfilesIcon';
+import PopupIcon from './PopupIcon';
+import AbandonedCartIcon from './AbandonedCartIcon';
+import KeywordsIcon from './KeywordsIcon';
+import LogoIcon from './LogoIcon';
+import '../../App/Root/Root.scss';
+import DropDownIcon from './DropDownIcon';
+import BurgerMenuIcon from './BurgerMenuIcon';
+import CrossIcon from './CrossIcon';
+import DotsIcon from './DotsIcon';
+import ArrowDownIcon from './ArrowDownIcon';
+import ArrowUpIcon from './ArrowUpIcon';
+import InfoIcon from './InfoIcon';
+import CheckboxIcon from './CheckboxIcon';
+
+export default { title: 'Icons' };
+
+export const campaign = () => <CampaignIcon />;
+export const dashboard = () => <DashboardIcon />;
+export const segements = () => <SegementsIcon />;
+export const auotmationbot = () => <AuotmationBotIcon />;
+export const conversations = () => <ConversationsIcon />;
+export const profiles = () => <ProfilesIcon />;
+export const popup = () => <PopupIcon />;
+export const abandonedcart = () => <AbandonedCartIcon />;
+export const keywords = () => <KeywordsIcon />;
+export const logo = () => <LogoIcon />;
+export const dropDownArrow = () => <DropDownIcon />;
+export const burgerMenu = () => <BurgerMenuIcon />;
+export const cross = () => <CrossIcon />;
+export const dots = () => <DotsIcon />;
+export const arrowDown = () => <ArrowDownIcon />;
+export const arrowUp = () => <ArrowUpIcon />;
+export const info = () => <InfoIcon />;
+export const checkbox = () => <CheckboxIcon />;
+export const activeCheckbox = () => <CheckboxIcon isActive />;
